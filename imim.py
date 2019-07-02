@@ -1,4 +1,4 @@
-v=int(input("Enter the number: \t"))
+v=int(input())
 if (v>0):
     print("Positive")
 elif (v<0):
