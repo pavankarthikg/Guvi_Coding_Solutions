@@ -3,8 +3,8 @@ b=int(input())
 c=int(input())
 if((a>b)and(b>c)):
     print(a)
-elif((a<b)and(c>b)):
-    print(c)
-else:
+elif((b<a)and(a>c)):
     print(b)
+else:
+    print(c)
     
