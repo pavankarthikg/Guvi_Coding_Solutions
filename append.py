@@ -1,2 +1,3 @@
 s=str(input())
-print(s,".")
+s1="."
+print(s+s1)
