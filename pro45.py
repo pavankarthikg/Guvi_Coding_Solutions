@@ -1,10 +1,9 @@
-nu=input()
-s1=nu[::-1]
-ct=0
-for i in range (0,len(nu)):
-    if nu[i]==s1[i]:
-        ct+=1
-if ct==len(nu):
-    print("yes")
+nu=int(input())
+while nu%10==0:
+  nu=nu//10
+nu=str(nu)
+re=nu[::-1]
+if nu==re:
+  print("yes")
 else:
     print("no")
